@@ -1,4 +1,8 @@
 function afficheResultat(score , NombreTotaleMots){
+    let div=document.querySelector(".score span")
+    let span=`${score}/${NombreTotaleMots}`
+    div.innerText=span
+  
 console.log("le score est " + score + " sur " +NombreTotaleMots)
 }
 function choisirPhrasesOuMots(){
